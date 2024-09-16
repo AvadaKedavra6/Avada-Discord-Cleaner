@@ -5,6 +5,9 @@ It checks critical files like index.js and package.json to see if they have been
 If so, it replaces the files with a safe version. 
 The software also closes Discord during cleaning and restarts the application when finished, while creating a log file for each cleaning session.
 
+# False positive
+
+If you have discord modifications like Vencord or BetterDiscord then my program may detect this as a "token grab" since the files are modified so if this happens change your password so as not to have any doubts.
 
 
 ## Installation (Beginner people)
